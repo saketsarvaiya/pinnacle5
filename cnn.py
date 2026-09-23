@@ -166,7 +166,7 @@ def visualize_predictions(model, X_test, y_test, num_samples=9):
     plt.show()
 
 if __name__ == "__main__":
-    X_data, y_data = load_donkeycar_tub(r"C:\Users\SAKET\Desktop\pinnacle5\dataset\donkey_datasets\circuit_launch_20210716\murmurpi4_circuit_launch_20210716_1611")
+    X_data, y_data = load_donkeycar_tub(r"C:\Users\_____\dataset\donkey_datasets\circuit_launch_20210716\murmurpi4_circuit_launch_20210716_1611")
     
     # 4. Halt immediately if the array is empty
     if len(X_data) == 0:
